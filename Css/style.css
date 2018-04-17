@@ -1,0 +1,40 @@
+body{
+    font-family: sans-serif;
+}
+
+/*Cabeçalho trabalhado 17.04.2018*/
+
+main{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+header{
+    margin: 0 auto;
+    width: 1200px;
+    height: 100px;
+    background: red;
+    margin-bottom: 5px;
+}
+
+header h1{
+    position: relative;
+    text-align: center;
+    top: 30px;
+}
+
+/* Trabalhando os artigos */
+
+#informacao{
+    width: 645px;
+    float: left;
+    background-color: green;
+    padding: 5px;
+}
+
+#contato{
+    width: 530px;
+    padding: 5px;
+    float: right;
+    background-color: blue;
+}
