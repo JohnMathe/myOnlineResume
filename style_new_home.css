@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+}
+main{
+    margin-top: -21px;
+    font-family: sans-serif;
+    background-image: url(Imagens/skyscraper-3224636.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 699px;
+}
+
+main h1{
+    color: aliceblue;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    margin: 15% auto;
+}
+
+main ul li{
+    display: inline-block;
+    padding: 10px;
+}
+
+main ul li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+main ul li:hover{
+    background-color: darkgrey;
+    transition: 1s;
+}
+
+main ul{
+    text-align: center;
+    position: absolute;
+    width: 90%;
+    margin: 25% auto;
+}
